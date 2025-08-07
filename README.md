@@ -114,11 +114,6 @@ festival-management-system/
 
 
 
-## 🔐 Admin Panel (Coming Soon)
-
-
-- Session-based authorization
-- Admin-only controls for CRUD operations
 
 ---
 
