@@ -126,7 +126,7 @@ festival-management-system/
 ## 👩‍💻 Creator
 
 **Tanishka Natraj Phand**  
-📧 tanishka14@gmail.com  
+📧 tanishkaphand14@gmail.com  
 
 ---
 
