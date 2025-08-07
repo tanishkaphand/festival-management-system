@@ -3,7 +3,7 @@ A Spring Boot-based Festival Management System made with eclipse and maven proje
 
 # 🎉 Festival Management System
 
-A responsive and secure **Festival Management System** built using **Spring Boot**, **PostgreSQL**, **HTML/CSS/JavaScript**, and follows the **MVC architecture**. It allows administrators to **add, edit, view, and delete** festival entries with features like **dark mode**, **category filter**, **image uploads**, **map integration**, and more.
+A responsive and secure **Festival Management System** built using **Spring Boot**, **PostgreSQL**, **HTML/CSS/JavaScript**, and follows the **MVC architecture**. It allows administrators to **add, edit, view** festival entries with features like **dark mode** 
 
 ---
 
