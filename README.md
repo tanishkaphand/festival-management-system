@@ -103,9 +103,14 @@ festival-management-system/
 
 ## 📷 Screenshots (Add your own)
 
-![Homepage![Uploading Screenshot 2025-08-07 141550.png…]()
-)
-![Add Festival](<img width="1859" height="876" alt="Screenshot 2025-08-07 141614" src="https://github.com/user-attachments/assets/473d518d-9225-4202-8888-9eada892e11c" />)
+![Homepage!]
+<img width="1895" height="900" alt="Screenshot 2025-08-07 141550" src="https://github.com/user-attachments/assets/b0d3639e-c757-4966-a6dd-f52c5e0a0aad" />
+
+
+![Add Festival]
+<img width="1859" height="876" alt="Screenshot 2025-08-07 141614" src="https://github.com/user-attachments/assets/39b9843a-f59e-4da9-b9de-5aed4dda2075" />
+
+
 
 
 
