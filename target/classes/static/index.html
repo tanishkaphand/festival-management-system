@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Festival Management System</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+	
+    <h1>🎉 Festival Management System 🎉</h1>
+    <p>Plan, Organize & Celebrate with Ease</p>
+    <button id="toggleTheme">🌙 Toggle Theme</button>
+  </header>
+
+  <!-- Introduction -->
+  <section class="intro card">
+    <h2>🎊 Welcome to the Festival Management Platform</h2>
+    <p>
+      This platform serves as a digital space to organize, monitor, and celebrate festivals in a structured manner.
+      With real-time listings, easy input forms, and planning features, it becomes easier than ever to manage
+      cultural and social events across regions and communities.
+    </p>
+    <p>
+      Our goal is to make celebrations more coordinated, memorable, and accessible to everyone!
+    </p>
+  </section>
+
+  <!-- Why Use -->
+  <section class="info card">
+    <h2>✨ Why Choose This System?</h2>
+    <ul>
+      <li>📌 Manage festivals all in one place</li>
+      <li>📅 Track events by date & location</li>
+      <li>🔍 Easy search & filtering (coming soon)</li>
+      <li>📊 Dashboard & analytics (planned)</li>
+      <li>🔔 Smart notifications (future release)</li>
+      <li>🗂️ Past event archive & history</li>
+      <li>💬 Collaborate with event organizers</li>
+    </ul>
+  </section>
+
+  <!-- Feature Highlights -->
+  <section class="features">
+    <h2>🚀 Key Features</h2>
+    <div class="feature-grid">
+      <div class="feature-card card">
+        <h3>🔄 Real-time Updates</h3>
+        <p>Festivals are listed instantly after creation.</p>
+      </div>
+      <div class="feature-card card">
+        <h3>🎯 Simple & Intuitive UI</h3>
+        <p>Even non-technical users can manage festivals easily.</p>
+      </div>
+      <div class="feature-card card">
+        <h3>🛡️ Secure System</h3>
+        <p>Data is validated and managed securely.</p>
+      </div>
+      <div class="feature-card card">
+        <h3>📈 Advanced Analytics</h3>
+        <p>Visual dashboard to track event impact (coming soon).</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Form Section -->
+  <section class="form-section card">
+    <h2>📝 Add a New Festival</h2>
+    <form id="festivalForm" method="POST">
+      <input type="text" id="name" placeholder="Festival Name" required />
+      <input type="text" id="location" placeholder="Location" required />
+      <input type="date" id="date" required />
+
+
+      <button type="submit">Add Festival</button>
+    </form>
+  </section>
+
+  <!-- Festival List -->
+  <section class="list-section card">
+    <h2>📅 Upcoming Festivals</h2>
+    <ul id="festivalList"></ul>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2025 Festival Management System | Made with ❤️ to celebrate culture and unity.</p>
+  </footer>
+
+  <script>
+    // Dark Mode Toggle
+    document.getElementById("toggleTheme").addEventListener("click", () => {
+      document.body.classList.toggle("dark-mode");
+      localStorage.setItem("theme", document.body.classList.contains("dark-mode") ? "dark" : "light");
+    });
+
+    // Load previous theme
+    window.onload = () => {
+      if (localStorage.getItem("theme") === "dark") {
+        document.body.classList.add("dark-mode");
+      }
+    };
+  </script>
+
+  <script src="script.js"></script>
+</body>
+</html>

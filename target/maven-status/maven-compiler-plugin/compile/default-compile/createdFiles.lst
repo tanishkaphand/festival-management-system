@@ -1,0 +1,5 @@
+com\example\SpringExample\SpringExampleApplication.class
+com\fms\service\FestivalService.class
+com\fms\repository\FestivalRepository.class
+com\fms\controller\FestivalController.class
+com\fms\model\Festival.class
