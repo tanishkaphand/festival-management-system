@@ -68,6 +68,13 @@ festival-management-system/
 ```
 
 ---
+## ⚙️ How to Use
+
+### ✅ Prerequisites
+
+- Java 17+
+- Maven 3.8+
+- PostgreSQL 15+
 
 ## 🛠️ Setup Instructions
 
@@ -87,10 +94,20 @@ festival-management-system/
      ./mvnw spring-boot:run
      ```
 
-3. **Frontend Setup**
-   - Simply open `index.html` in your browser or serve via any local server
+3.  **Access Frontend** 
+   Open your browser and go to:  
+   `http://localhost:8082`
+
 
 ---
+
+## 📷 Screenshots (Add your own)
+
+![Homepage![Uploading Screenshot 2025-08-07 141550.png…]()
+)
+![Add Festival](<img width="1859" height="876" alt="Screenshot 2025-08-07 141614" src="https://github.com/user-attachments/assets/473d518d-9225-4202-8888-9eada892e11c" />)
+
+
 
 ## 🔐 Admin Panel (Coming Soon)
 
